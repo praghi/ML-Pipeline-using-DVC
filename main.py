@@ -1,4 +1,3 @@
-from src.demo import HelloWorld 
+import os 
 
-obj = HelloWorld()
-obj.print_details()
+os.system("python src/data_ingestion.py")
